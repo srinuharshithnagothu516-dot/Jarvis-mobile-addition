@@ -1,4 +1,4 @@
-// 1. API KEY (Safe: browser ) let API_KEY = localStorage.getItem(jarvis_key'); if(IAPI_KEY)( } API_KEY = prompt("Enter your Gemini API Key:"); if(API_KEY) localStorage.setItem(jarvis_key', API_KEY);AQ.Ab8RN6K9QTViLDuE6e4BYfXbyeU1ovPVm93Lrf5KMTWo4REz0A
+// 1. API KEY (Safe: browser ) let API_KEY = localStorage.getItem(jarvis_key'); if(IAPI_KEY)( } API_KEY = prompt("Enter your Gemini API Key:"); if(API_KEY) localStorage.setItem(jarvis_key', API_KEY);
 //===== 2. SMART MODELS (໙໖ fail ๒ next auto try) const MODELS = [gemini-3.6-flash", "gemini-flash-latest");
 const chat document.getElementById('chat'); const input=document.getElementById('msg'); const micBtn=document.getElementById('mic-btn');
 // 3. GEMINI BRAIN (auto-fallback) async function callGemini(p)(
